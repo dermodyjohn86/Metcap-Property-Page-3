@@ -1,0 +1,144 @@
+h1 {
+    font-size: 1.50em;
+    font-weight: 600;
+    padding-bottom: 54px;
+}
+h2 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+h3 {
+    font-size: .9rem;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+h6 {
+    font-size: .8rem;
+    color: #fff;
+    font-wight: 200;
+}
+ul,
+ol,
+dl {
+    font-family: inherit;
+    font-size: 0.8rem;
+    line-height: 1.9rem;
+}
+p {
+    line-height: 24px;
+    font-size: 0.9rem;
+    padding-bottom: 30px;
+}
+.cd-hero-slider {
+    margin-bottom: 56px;
+}
+.tabs dd.active a,
+.tabs .tab-title.active a {
+    background-color: #016101;
+    color: #fff;
+}
+.tabs dd > a,
+.tabs .tab-title > a {
+    display: block;
+    background-color: #009b00;
+    color: #fff;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 1rem;
+    padding: 0.5rem 2.6rem;
+    /*    border: 0.1rem solid #e1e1e1;*/
+}
+a {
+    font-size: .9rem;
+    font-weight: 400;
+}
+.tabs-content > .content {
+    padding-top: 0rem;
+}
+.tabs {
+    padding-top: 40px;
+}
+table thead {
+    background: #FFF;
+}
+table tr.even,
+table tr.alt,
+table tr:nth-of-type(even) {
+    background: #FFF;
+}
+.button {
+    padding: .6rem 3.0rem .6rem 3.0rem;
+    margin: 0rem;
+}
+table {
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    width: 100%;
+}
+.fullWidth,
+footer {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: initial;
+}
+.fullWidth {
+    background-image: url("../assets/lightpaperfibers.png");
+    background-repeat: repeat-x;
+    box-shadow: inset -1px 1px 2px 0px #E1E1E1;
+    -webkit-box-shadow: inset -1px 1px 2px 0px #E1E1E1;
+    -moz-box-shadow: inset -1px 1px 2px 0px #E1E1E1;
+    -o-box-shadow: inset -1px 1px 2px 0px #E1E1E1;
+}
+.footer {
+    background-color: #0059a8;
+    margin-top: 40px;
+    padding-top: 50px
+}
+.top-bar {
+    height: 5rem;
+    background: #fff;
+}
+.top-bar-section ul li > a {
+    color: #333;
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+    background: #fff;
+}
+.top-bar-section ul {
+    padding-top: 32px;
+}
+.top-bar .name {
+    padding-top: 4px;
+}
+table tbody tr td,
+table tr td {
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 12px;
+}
+table thead tr th {
+    padding-left: 4%;
+}
+span {
+    color: #fff;
+}
+.metcapLogo {
+    width: 150px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.directions {
+    text-align: center;
+    padding-top: 30px;
+}
+.button {
+    background-color: #0059A8;
+}
+a:hover {
+    background-color: #0d4e87!important;
+}
+.cd-slider-nav .cd-marker {
+    color: #0059a8;
+}
