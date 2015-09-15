@@ -49,16 +49,10 @@
 	</header>      
 	<section class="cd-hero">
 		<ul class="cd-hero-slider autoplay">
-			<li class="selected">
-				<div class="cd-full-width cd-img-container">
-					<img src="assets/HeaderImagesMetcap-01.jpg" alt="tech 2"></a>
-        </div>
-        <!-- .cd-full-width -->
-        </li>
+			
 
-        <li class="cd-bg-video">
-            <div class="cd-full-width">
-            </div>
+        <li class="selected">
+            
             <!-- .cd-full-width -->
 
             <div class="cd-bg-video-wrapper" data-video="assets/video/video">
@@ -66,27 +60,7 @@
             </div>
             <!-- .cd-bg-video-wrapper -->
         </li>
-        <li>
-            <!-- .cd-half-width -->
-
-            <div class="cd-hero">
-                <img src="assets/HeaderImagesMetcap-02.jpg" alt="tech 1">
-            </div>
-            <!-- .cd-half-width.cd-img-container -->
-        </li>
-
-        <li>
-            <div class="cd-hero">
-                <img src="assets/HeaderImagesMetcap-03.jpg" alt="tech 2">
-            </div>
-            <!-- .cd-half-width.cd-img-container -->
-
-            <div class="cd-hero">
-                <img src="assets/HeaderImagesMetcap-04.jpg" alt="tech 2">
-            </div>
-            <!-- .cd-half-width -->
-
-        </li>
+      
         </ul>
         <!-- .cd-hero-slider -->
 
@@ -96,10 +70,10 @@
 
                 <ul>
                     <li class="selected"><a href="#0">Intro</a></li>
-                    <li><a href="#0">Video</a></li>
-                    <li><a href="#0">Image</a></li>
-                    <li><a href="#0">Image</a></li>
-                </ul>
+                        <li><a href="#0">Video</a></li>
+                        <li><a href="#0">Image</a></li>
+                        <li><a href="#0">Image</a></li>
+                    </ul>
             </nav>
         </div>
         <!-- .cd-slider-nav -->
@@ -141,14 +115,11 @@
         <div class="fullWidth">
             <div class="row">
                 <ul class="tabs" data-options="deep_linking: true" role="tablist" data-tab="">
-                    <li class="tab-title active" role="presentational">
-                        <a controls="tabs-deeplink-1" aria-selected="true" tabindex="-1" role="tab" href="#tabs-deeplink-1">Suits & Pricing </a>
+                    <li class="tab-title" role="presentational">
+                        <a controls="tabs-deeplink-1" aria-hidden="false" tabindex="1" role="tab" href="#tabs-deeplink-1">Suits & Pricing </a>
                     </li>
                     <li class="tab-title" role="presentational">
-                        <a controls="tabs-deeplink-2" aria-selected="false" tabindex="-1" role="tab" href="#tabs-deeplink-2">Photos</a>
-                    </li>
-                    <li class="tab-title" role="presentational">
-                        <a controls="tabs-deeplink-3" aria-selected="false" tabindex="0" role="tab" href="#tabs-deeplink-3">Videos</a>
+                        <a controls="tabs-deeplink-2" aria-hidden="true" tabindex="2" role="tab" href="#tabs-deeplink-2">Photos</a>
                     </li>
                 </ul>
                 <div class="tabs-content">
@@ -185,13 +156,21 @@
                         </table>
                     </section>
                     <section id="tabs-deeplink-2" class="content" aria-hidden="true" role="tabpanel" tabindex="-1">
-                        <h2>Photos</h2>
-                        <p id="tabs-deeplink-content-2"> Second panel content goes here...</p>
+      
+                            <ul class="clearing-thumbs clearing-feature" data-clearing>
+                                <li class="clearing-featured-img">
+                                    <a href="assets/HeaderImagesMetcap-01.jpg"><img src="assets/HeaderImagesMetcap-01-th.jpg"></a>
+                                </li>
+                                <li class="clearing-featured-img">
+                                    <a href="assets/HeaderImagesMetcap-02.jpg"><img src="assets/HeaderImagesMetcap-02-th.jpg"></a>
+                                </li>
+                                <li class="clearing-featured-img">
+                                    <a href="assets/HeaderImagesMetcap-03.jpg"><img src="assets/HeaderImagesMetcap-03-th.jpg"></a>
+                                </li>
+                            </ul>
+
                     </section>
-                    <section id="tabs-deeplink-3" class="content" role="tabpanel" aria-hidden="true" tabindex="-1">
-                        <h2>Videos</h2>
-                        <p id="tabs-deeplink-content-3"> Third panel content goes here...</p>
-                    </section>
+
                 </div>
             </div>
         </div>

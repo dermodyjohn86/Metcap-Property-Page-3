@@ -6,7 +6,7 @@ h1 {
 h2 {
     font-size: 1.1rem;
     font-weight: 600;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 h3 {
     font-size: .9rem;
@@ -33,7 +33,7 @@ p {
 .cd-hero-slider {
     margin-bottom: 56px;
 }
-.tabs dd.active a,
+.tabs dd.active a, content,
 .tabs .tab-title.active a {
     background-color: #016101;
     color: #fff;
@@ -145,3 +145,12 @@ a:hover {
 .cd-slider-nav {
     display: none;
 }
+.carousel {
+    background-color: #fff;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border: 1px solid #e1e1e1;
+}
+ 
